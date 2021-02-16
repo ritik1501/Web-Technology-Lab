@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <h2>Registration Form</h2>
+            <p>Enter the following details to create an account.</p>
+            <hr>
+            <label for="name">Name: </label>
+            <input type="text" placeholder="What we call you?" id="name" name="name">
+
+            <label for="pass">Password: (8-20)</label>
+            <input type="password" placeholder="Password length must be 8-20" id="pass" name="pass">
+
+            <label for="email">Email Address: </label>
+            <input type="email" placeholder="example@example.com" id="email" name="email">
+
+            <label for="phone">Phone Number: </label>
+            <input type="tel" placeholder="+91" id="phone" name="phone">
+
+            <div class="data">
+                <label for="gender">Gender: </label>
+                <div class="valid">
+                    <input type="radio" id="male" name="gender">Male
+                    <input type="radio" id="female" name="gender">Female
+                </div>
+            </div>
+
+            <label for="dob">Date of Birth: </label>
+            <input type="date" id="dob" name="dob">
+
+            <div class="data">
+                <label for="lang">Languages: </label><br>
+                <input type="checkbox" id="eng" name="lang">English
+                <input type="checkbox" id="hin" name="lang">Hindi
+                <input type="checkbox" id="tel" name="lang">Telugu
+                <input type="checkbox" id="tam" name="lang">Tamil
+            </div>
+
+            <label for="address">Address: </label>
+            <textarea name="address" id="address" rows="5" placeholder="Where do you live?"></textarea>
+
+            <button id="submit" type="submit">Submit</button>
+
+            <div id="subMess"></div>
+        </form>
+    </div>
+
+</body>
+
+<script src="index.js"></script>
+
+</html>

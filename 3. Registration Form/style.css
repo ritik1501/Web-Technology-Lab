@@ -1,0 +1,71 @@
+body{
+    background: url(https://cdn.britannica.com/67/19367-050-885866B4/Valley-Taurus-Mountains-Turkey.jpg);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    color: honeydew;
+}
+form{
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(37, 37, 37);
+    padding: 20px;
+    opacity: 0.8;
+    font-family:cursive;
+}
+label{
+    flex: 0 0 100%;
+    margin: 10px 0;
+    font-size: medium;
+}
+input, textarea{
+    flex: 0 0 100%;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+}
+input:focus, textarea:focus{
+    border-color: green;
+    border: 3px solid green;
+    padding: 7px;
+}
+textarea:hover, input:hover{
+    padding: 7px;
+}
+.data, .valid{
+    margin-top: 10px;
+}
+
+button{
+    width: 20%;
+    padding: 5px 0;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 254, 254);
+    font-weight: 700;
+    margin: 10px 0;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button:hover{
+    background: rgb(9, 94, 9);
+}
+p,h2{   
+    margin-top: 2px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+hr{
+    width: 100%;
+}
+
+@media(max-width:650px){
+    form{
+        min-width: 100%;
+    }
+}

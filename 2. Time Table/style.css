@@ -1,0 +1,72 @@
+span{
+    margin-left: 5px;
+}
+table{
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    /* background-color:rgb(138, 117, 233); */
+}
+th{
+    background-color: rgb(138, 117, 233);
+}
+hr{
+    border-color: blanchedalmond;
+    background-color: blanchedalmond;
+}
+.mtr{
+    background-color: #555;
+    color: lavenderblush;
+}
+.hmm305{
+    background-color: #017;
+    color: lavenderblush;
+}
+.csa302{
+    background-color: #199;
+    color: lavenderblush;
+}
+.arp302{
+    background-color: #252;
+    color: lavenderblush;
+}
+.csa301{
+    background-color: #000;
+    color: lavenderblush;
+}
+.cse352{
+    background-color: #495;
+    color: lavenderblush;
+}
+.csa041{
+    background-color: #155;
+    color: lavenderblush;
+}
+.cse041{
+    background-color: #055999;
+    color: lavenderblush;
+}
+.cse031{
+    background-color: #058479;
+    color: lavenderblush;
+}
+.cse032{
+    background-color: #273d58;
+    color: lavenderblush;
+}
+.cal302{
+    background-color: #999;
+    color: lavenderblush;
+}
+.csp396{
+    background-color: rgb(248, 76, 76);
+    color: lavenderblush;
+}
+.csp352{
+    background-color: rgb(76, 151, 248);
+    color: lavenderblush;
+}
+.csp392{
+    background-color: rgb(172, 94, 152);
+    color: lavenderblush;
+}

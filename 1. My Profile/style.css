@@ -1,0 +1,91 @@
+.header{
+    background-color: rgb(28, 3, 68);
+    padding: 25px;
+    color: whitesmoke;
+}
+.header h2{
+    color: green;
+    font-style: normal;
+    font-weight: normal;
+}
+.contact{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    color: whitesmoke;
+    padding: 10px 0 10px 0 ;
+    justify-content: center;
+}
+.contact img{
+    margin-right: 5px;
+    margin-left: 25px;
+}
+.middle{
+    display: flex;
+    padding: 15px;
+    background-color:  rgb(55, 55, 55);
+}
+.education, .projects{
+    padding: 25px;
+    margin: 10px;
+    background: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+}
+.education h1, .projects h1{
+    color: green;
+    text-decoration: underline;
+}
+.time{
+    color: black;
+    margin: 15px 0 10px 0;
+}
+.edu{
+    color: rgb(37, 21, 7);
+    margin: 15px 0 10px 0;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.edu-con{
+    color: rgb(24, 24, 24);
+    margin: 15px 0 10px 0;
+    font-size: 1.05rem;
+}
+.skills{
+    /* background-color: rgb(238, 221, 221); */
+    background-color: rgb(138, 137, 137);
+}
+.skills h2{
+    color: green;
+    text-decoration: underline;
+    font-weight: 900;
+    padding: 5px 0 0 25px;
+}
+.skill{
+    margin: 0 25px;
+    display: flex;
+    padding: 0 10px 0 10px;
+    /* flex-wrap: wrap; */
+}
+.foot{
+    background:  rgb(28, 3, 68);
+    color: beige;
+    padding: 5px;
+    text-align: center;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+@media(max-width:765px){
+    .middle{
+        flex-wrap: wrap;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+}
+@media(max-width:725px){
+    .skill{
+        flex-wrap: wrap;
+    }
+}
