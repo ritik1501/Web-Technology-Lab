@@ -15,6 +15,7 @@ name.addEventListener('input', function () {
         name.style.borderColor = 'green';
         name.style.borderWidth = '3px';
         validName = true;
+        message = ""
     }
     else {
         name.style.borderColor = 'red';
@@ -31,6 +32,7 @@ email.addEventListener('input', function () {
         email.style.borderColor = 'green';
         email.style.borderWidth = '3px';
         validEmail = true;
+        message =""
     }
     else {
         email.style.borderColor = 'red';
@@ -47,6 +49,7 @@ phone.addEventListener('input', function () {
         phone.style.borderColor = 'green';
         phone.style.borderWidth = '3px';
         validPhone = true;
+        message=""
     }
     else {
         phone.style.borderColor = 'red';
@@ -63,6 +66,7 @@ password.addEventListener('input', function () {
         password.style.borderColor = 'green';
         password.style.borderWidth = '3px';
         validPassword = true;
+        message=""
     }
     else {
         password.style.borderColor = 'red';
