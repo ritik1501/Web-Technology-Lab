@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: rgb(252, 171, 21);
+    background: url(https://resources.platform.iplt20.com/photo-resources/2020/02/15/920c309c-a894-4f9a-a702-b9ac34725e38/DMIPL11809.JPG?width=2000&height=1333);
 }
 .ordered{
     flex: 0 0 35%;
