@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+iframe{
+    padding: 20px;
+}
+.top{
+    width: 100%;
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.top iframe{
+    flex: 0 0 22%;
+    height: 300px;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+.middle iframe{
+    height: 300px;
+    width: 90vw;
+    margin: 10px 0;
+}
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: 20px 0;
+}
+.bottom iframe{
+    flex: 0 0 31%;
+}
+.bottom .foot{
+    flex: 0 0 31%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
+}
+.bottom .foot iframe:first-child{
+    margin-bottom: 10px;
+}
