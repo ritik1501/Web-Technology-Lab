@@ -2,6 +2,7 @@ body {
     font-family:cursive;
     padding: 0;
     margin: 0;
+    user-select: none;
 }
 .navbar {
     overflow: hidden;
@@ -34,7 +35,7 @@ body {
     margin: 0;
 }  
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: rgb(0, 102, 255);
 }  
 .dropdown-content {
     display: none;
@@ -57,4 +58,45 @@ body {
 }  
 .dropdown:hover .dropdown-content {
     display: block;
+}
+.word{
+    margin: 25px;
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    word-break: break-all;
+}
+.word-keep{
+    margin: 25px;
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    word-break: keep-all;
+}
+.word-keep:hover{
+    margin: 100px 0;
+    transform: translate(100px, 0px, 20px 5px);
+}
+#first {
+    border: 10px dotted brown;
+    padding: 15px;
+    background: lightskyblue;
+    background-clip: border-box;  
+    margin-top: 5px;
+}
+  
+#second {
+    border: 10px dotted brown;
+    padding: 15px;
+    background: lightskyblue;
+    background-clip: padding-box;
+    margin-top: 5px;
+}
+  
+#three {
+    border: 10px dotted brown;
+    padding: 15px;
+    background: lightskyblue;
+    background-clip: content-box;
+    margin-top: 5px;
 }

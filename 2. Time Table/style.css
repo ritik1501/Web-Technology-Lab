@@ -8,47 +8,47 @@ table{
     /* background-color:rgb(138, 117, 233); */
 }
 th{
-    background-color: rgb(138, 117, 233);
+    background-color: rgba(138, 117, 233, 0.9);
 }
 hr{
     border-color: blanchedalmond;
     background-color: blanchedalmond;
 }
 .mtr{
-    background-color: #555;
-    color: lavenderblush;
+    background-color: rgba(255,138,144,0.7);
+    color: black;
 }
 .hmm305{
-    background-color: #017;
+    background-color: rgba(255,138,144,0.8);
     color: lavenderblush;
 }
 .csa302{
-    background-color: #199;
-    color: lavenderblush;
+    background-color: hsla(120,100%,50%,0.5);
+    color: black;
 }
 .arp302{
-    background-color: #252;
+    background-color: hsl(180, 50%, 50%);
     color: lavenderblush;
 }
 .csa301{
-    background-color: #000;
+    background-color: hsl(200, 80%, 20%);
     color: lavenderblush;
 }
 .cse352{
-    background-color: #495;
-    color: lavenderblush;
+    background-color: hsla(56,100%,50%,0.8);
+    color: black;
 }
 .csa041{
-    background-color: #155;
+    background-color: hsl(100, 80%, 20%);
     color: lavenderblush;
 }
 .cse041{
-    background-color: #055999;
+    background-color: hsla(200, 80%, 20%, 0.6);
     color: lavenderblush;
 }
 .cse031{
-    background-color: #058479;
-    color: lavenderblush;
+    background-color: rgba(54, 252, 54, 0.5);
+    color: black;
 }
 .cse032{
     background-color: #273d58;
