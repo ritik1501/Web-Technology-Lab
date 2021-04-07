@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Change</title>
+    <style>
+        a{
+            font-size: 20px;
+            margin: 20px;
+            padding: 20px;
+            text-decoration: none;
+            color: black;
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    <a href="#" id="white">White</a>
+    <a href="#" id="red">Red</a>
+    <a href="#" id="blue">Blue</a>
+    <a href="#" id="pink">Pink</a>
+</body>
+<script>
+    let white = document.getElementById("white");
+    let red = document.getElementById("red");
+    let blue = document.getElementById("blue");
+    let pink = document.getElementById("pink");
+    red.addEventListener('click', ()=>{
+        document.body.style.backgroundColor = "red";
+    });
+    blue.addEventListener('click', ()=>{
+        document.body.style.backgroundColor = "blue";
+    });
+    pink.addEventListener('click', ()=>{
+        document.body.style.backgroundColor = "pink";
+    });
+    white.addEventListener('click', ()=>{
+        document.body.style.backgroundColor = "white";
+    });
+</script>
+</html>
