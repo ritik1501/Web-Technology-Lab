@@ -4,7 +4,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: black;
+    background-image: url(https://images.ctfassets.net/hrltx12pl8hq/6TOyJZTDnuutGpSMYcFlfZ/4dfab047c1d94bbefb0f9325c54e08a2/01-nature_668593321.jpg?fit=fill&w=480&h=270);
+    background-size: cover;
 }
 .container
 {
@@ -28,16 +29,16 @@ button
     background: linear-gradient(to right, #9e41f5, #0026fa);
     color: white;
     height: 60px;
-    width: 60px;
+    width: 80px;
     font-size: 25px;
+    outline: none;
 }
 .calc
 {
     color: white;
     display: inline-block;
-    background: linear-gradient(to left, #f72bd5,#e7116a);
-    /* background-color: #004; */
+    background-color: rgb(25, 25, 25);
     border-radius: 1cm;
-    padding: 15px;
+    padding: 10px;
     padding-bottom: 35px;
 }
