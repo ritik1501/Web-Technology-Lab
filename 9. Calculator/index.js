@@ -19,6 +19,7 @@ for (item of button){
                 screen.value = eval(screenValue);
             } catch (error) {
                 screen.value = 'ERROR!!'
+                alert("ERROR !! Please Enter Right Values...")
             }
         }
         else{
