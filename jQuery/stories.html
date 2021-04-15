@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>jQuery</title>
+</head>
+<style>
+    body {
+        background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+        /* background:
+            repeating-radial-gradient(circle at 0 0,
+                #eee,
+                #ccc 50px); */
+    }
+
+    .story1 {
+        background: rgb(2, 0, 36);
+        background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(73, 205, 150, 1) 0%, rgba(29, 113, 57, 1) 100%);
+    }
+
+    .story2 {
+        background: rgb(2, 0, 36);
+        background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(118, 205, 73, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    }
+</style>
+
+<body>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="mx-3 data">Short Stories</h2>
+            </div>
+            <div class="col-md-2"><button class="btn btn-danger" id="val" onclick="fade()">Next Story</button>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-primary" id="show">Slide Down Image</button>
+                <button class="btn btn-primary" id="hide">Slide Up Image</button>
+            </div>
+            <div class="col-md-2"><button class="btn btn-info" id="message">Hover Me</button>
+            </div>
+        </div>
+        <div class="story1 my-3 p-5">
+            <h4>The lion and the Mouse</h4>
+            A lion was once sleeping in the jungle when a mouse started running up and down his body just for fun. This
+            disturbed the lion’s sleep, and he woke up quite angry. He was about to eat the mouse when the mouse
+            desperately
+            requested the lion to set him free. “I promise you, I will be of great help to you someday if you save me.”
+            The
+            lion laughed at the mouse’s confidence and let him go. One day, a few hunters came into the forest and took
+            the lion with them. They tied him up against a tree. The lion was struggling to get out and started to
+            whimper. Soon, the mouse walked past and noticed the lion in trouble. Quickly, he ran and gnawed on the
+            ropes to set the lion free. Both of them sped off into the jungle.
+            <div class="moral">
+                <strong>Moral of the Story: </strong> <u>A small act of kindness can go a long way.</u>
+            </div>
+            <div id="image">
+                <img class="img-fluid mx-auto my-3"
+                    src="https://cdn2.momjunction.com/wp-content/uploads/2016/02/The-Lion-And-The-Mouse-Story-For-Your-Kid.jpg"
+                    alt="Story1" style="min-width: 90%;">
+            </div>
+        </div>
+        <div class="story2 my-3 p-5">
+            <h2>The Fox and the Stork</h2>
+            One day, a selfish fox invited a stork for dinner. Stork was very happy with the invitation – she reached
+            the fox’s home on time and knocked at the door with her long beak. The fox took her to the dinner table and
+            served some soup in shallow bowls for both of them. As the bowl was too shallow for the stork, she couldn’t
+            have soup at all. But, the fox licked up his soup quickly. The stork was angry and upset, but she didn’t
+            show her anger and behaved politely. To teach a lesson to the fox, she then invited him for dinner the next
+            day. She too served soup, but this time the soup was served in two tall narrow vases. The stork devoured the
+            soup from her vase, but the fox couldn’t drink any of it because of his narrow neck. The fox realised his
+            mistake and went home famished.
+            <div class="moral">
+                <strong>Moral of the Story: </strong> <u>A selfish act backfires sooner or later!</u>
+            </div>
+            <div id="image">
+                <img class="img-fluid mx-auto my-3"
+                    src="https://cdn.cdnparenting.com/articles/2019/12/21100406/The-Fox-and-the-Stork.jpg" alt="Story2">
+            </div>
+        </div>
+        </section>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(() => {
+            $('.story2').hide();
+            $('#show').hide();
+        })
+        $('#hide').click(() => {
+            $('#image').slideUp()
+            $('#show').toggle();
+            $('#hide').toggle();
+            $('.data').fadeOut();
+        })
+        $('#show').click(() => {
+            $('#image').slideDown()
+            $('#show').toggle();
+            $('#hide').toggle();
+            $('.data').fadeIn();
+        })
+        $('#message').hover(() => {
+            alert("Are you Enjoying Our Stories? ");
+            $('#message').hide();
+        });
+        function fade() {
+            $('.story1, .story2').fadeToggle();
+        }
+    </script>
+</body>
+
+</html>
