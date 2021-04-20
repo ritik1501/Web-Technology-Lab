@@ -38,8 +38,9 @@ button
 {
     color: white;
     display: inline-block;
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(28, 29, 28);
     border-radius: 1cm;
     padding: 10px;
     padding-bottom: 35px;
+    opacity: 0.9;
 }
